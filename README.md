@@ -3,7 +3,7 @@
 
 A wearable control system that empowers patients, elderly individuals, and people with limited mobility or speech to control their surroundings and call for help — using only hand gestures.
 
-## 📌 Features
+##  Features
 
 * **Gesture Control:** Twist, swipe, and tilt gestures to select and control devices.
 * **Offline Operation:** Works without internet, mobile apps, or voice commands.
@@ -11,7 +11,7 @@ A wearable control system that empowers patients, elderly individuals, and peopl
 * **Multi-Device Control:** Integrated with Seeed Studio’s 6-Channel Relay Board for switching lights, fans, bells, and more.
 * **Fast & Reliable:** Uses ESP-NOW protocol for instant communication between wearable and receiver.
 
-## 🛠 Hardware Used
+##  Hardware Used
 
 1. **MYOSA ESP32 Wroom Board** – Wearable gesture detection
 2. **Seeed Studio XIAO ESP32-C6** – Relay controller
@@ -20,7 +20,7 @@ A wearable control system that empowers patients, elderly individuals, and peopl
 5. **OLED Display** – Device selection feedback
 6. Relays, wiring, and supporting components
 
-## 🔌 How It Works
+##  How It Works
 
 1. Wearable detects gestures via APDS9960 and MPU6050 sensors.
 2. Commands are transmitted via **ESP-NOW** to the receiver node.
@@ -28,7 +28,7 @@ A wearable control system that empowers patients, elderly individuals, and peopl
 4. Emergency gesture triggers a **Tasker-based phone call** without unlocking the phone.
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * Arduino IDE or PlatformIO installed
