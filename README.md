@@ -43,8 +43,8 @@ A wearable control system that empowers patients, elderly individuals, and peopl
 git clone https://github.com/CosmicMadhav/ESP32-Gesture-Based-Wearable-Controller.git
 ```
 
-2. Open `wearable_code.ino` in Arduino IDE, select **ESP32 Wroom board**, and upload.
-3. Open `receiver_code.ino`, select **XIAO ESP32-C6**, and upload.
+2. Open `Wearable_code.ino` in Arduino IDE, select **ESP32 Wroom board**, and upload.
+3. Open `Receiver_relay_code.ino`, select **XIAO ESP32-C6**, and upload.
 
 ### Connections
 * Connect gesture sensor to ESP32 as per `wearable_code` pin definitions.
